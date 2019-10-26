@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Link = ({ onButtonClick, ...props }) => {
+const TextLink = ({ onButtonClick, ...props }) => {
   return (
     <div>
       <button onClick={onButtonClick}>{props.children}</button>
@@ -8,4 +8,4 @@ const Link = ({ onButtonClick, ...props }) => {
   );
 };
 
-export default Link;
+export default TextLink;

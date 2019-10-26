@@ -1,7 +1,7 @@
 import React from 'react';
 import CurrentCity from '../atoms/CurrentCity';
 import CurrentTemp from '../atoms/CurrentTemp';
-import Link from '../atoms/Link';
+import Link from '../atoms/TextLink';
 
 const CurrentWeather = ({ city, temperature, onTextLinkClick, ...props }) => {
   return (
