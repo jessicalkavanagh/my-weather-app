@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background: #200552;
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+
+h1 {
+    font-size: 70pt;
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 0pt;
+    margin: 0px;
+    color: #ffffff;
+    padding: 0px;
+
+}
+

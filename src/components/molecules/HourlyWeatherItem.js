@@ -1,14 +1,20 @@
 import React from 'react';
 import Symbol from '../atoms/Symbol';
+import './HourlyWeatherItem.css';
 
-const HourlyWeather = ({ time, icon, maxTemp, ...props }) => {
+
+const HourlyWeatherItem = ({icon, maxTemp, time, ...props}) => {
   return (
-    <li>
-      <div>{time}</div>
-      <Symbol icon={icon} />
-      <div>{maxTemp}</div>
-    </li>
-  );
-};
+      <>
+      <ul>
+         <li>
+         <div class="hourlytime">{time}</div>
+         <div class="hourlyicon"><Symbol icon={icon}/></div>
+         <div class="hourlytemp">{maxTemp}<sup>º</sup></div>
+         </li>
+      </ul>
+      </>
+  )
+}
 
-export default HourlyWeather;
+export default HourlyWeatherItem;

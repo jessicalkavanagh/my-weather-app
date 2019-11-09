@@ -4,12 +4,14 @@ import TextLink from '../components/atoms/TextLink';
 import Forecasting from '../components/organisms/Forecasting';
 import PageTemplate from '../components/templates/PageTemplate';
 
+
 const WeatherPage = ({ city, temperature, changeCity, forecast, ...props }) => {
   return (
     <PageTemplate city={city} temperature={temperature} changeCity={changeCity}>
-      <Forecasting forecast={forecast} />;
+      <Forecasting forecast={forecast} />
+      <p class="complaintblurb">Don't like the weather?</p>
       <Link to="/complain">
-        <TextLink>Complain about the weather!</TextLink>
+        <TextLink linkType="complaintlink">Complain to the weather person!</TextLink>
       </Link>
     </PageTemplate>
   );
