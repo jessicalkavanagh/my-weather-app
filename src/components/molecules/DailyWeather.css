@@ -24,3 +24,10 @@
 .DWmaxmin {
     font-size: 30pt;
 }
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }

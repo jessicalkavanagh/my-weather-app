@@ -5,7 +5,7 @@ import './HourlyWeather.css';
 
 const HourlyWeather = ({ list, ...props }) => {
   return (
-    <div className="HourlyWeather">
+    <div className="flex-container HourlyWeather">
       <div className="HWList">
         <ul>
           {list.map(item => (
